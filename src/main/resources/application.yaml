@@ -6,3 +6,14 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver # 3.2.0开始支持SPI可省略此配置
+#  redis:
+#    host: 192.168.0.101
+#    port: 6379
+  redis:
+    host: jw-pst-prod-public.redis.rds.aliyuncs.com
+    port: 6379
+    password: TITlSlLfTOFzpkBXOOwvUlhy+sE=
+    database: 0
+
+server:
+  port: 8902

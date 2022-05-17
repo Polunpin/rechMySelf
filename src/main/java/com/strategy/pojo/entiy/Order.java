@@ -1,4 +1,4 @@
-package strategy.pojo.entiy;
+package com.strategy.pojo.entiy;
 
 import lombok.Data;
 

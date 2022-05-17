@@ -1,13 +1,13 @@
-package strategy.controller;
+package com.strategy.controller;
 
+import com.strategy.pojo.entiy.Order;
+import com.strategy.pojo.response.PayResult;
+import com.strategy.service.IPayment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import strategy.pojo.entiy.Order;
-import strategy.pojo.response.PayResult;
-import strategy.service.IPayment;
 
 /**
  * @author LYP

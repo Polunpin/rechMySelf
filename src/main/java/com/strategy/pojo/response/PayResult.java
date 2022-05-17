@@ -1,4 +1,4 @@
-package strategy.pojo.response;
+package com.strategy.pojo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

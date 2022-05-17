@@ -1,7 +1,7 @@
-package strategy.service;
+package com.strategy.service;
 
-import strategy.pojo.entiy.Order;
-import strategy.pojo.response.PayResult;
+import com.strategy.pojo.entiy.Order;
+import com.strategy.pojo.response.PayResult;
 
 /**
  * 支付接口

@@ -1,9 +1,9 @@
-package strategy.service.impl;
+package com.strategy.service.impl;
 
 import org.springframework.stereotype.Service;
-import strategy.pojo.entiy.Order;
-import strategy.pojo.response.PayResult;
-import strategy.service.IPayment;
+import com.strategy.pojo.entiy.Order;
+import com.strategy.pojo.response.PayResult;
+import com.strategy.service.IPayment;
 
 /**
  * 微信支付
